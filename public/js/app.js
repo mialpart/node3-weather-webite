@@ -1,12 +1,10 @@
-console.log('Client side js is loaded')
-
-fetch('https://puzzle.mead.io/puzzle').then((response) => {
-    response.json().then((data) => {
-        console.log(data);
-    })
-}).catch((error) => {
-    console.error(error);
-})
+//fetch('https://puzzle.mead.io/puzzle').then((response) => {
+//    response.json().then((data) => {
+//        console.log(data);
+//    })
+//}).catch((error) => {
+//    console.error(error);
+//})
 
 const weatherForm = document.querySelector('form');
 const search = document.querySelector('input');
